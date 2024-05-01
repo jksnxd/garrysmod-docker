@@ -29,7 +29,6 @@ echo "Starting server on ${MODE} mode..."
 /home/gmod/server/srcds_run_x64 \
     -game garrysmod \
     -norestart \
-    -strictportbind \
     -autoupdate \
     -steam_dir "/home/gmod/steamcmd" \
     -steamcmd_script "/home/gmod/update.txt" \
